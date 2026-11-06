@@ -27,6 +27,21 @@ int ano;
 bool am;
 bool pm;
 
+// Y -> Ano completo (2026)
+    // y -> Ano com 2 dígitos (26)
+    // m -> Mês (01-12)
+    // d -> Dia (01-31)
+    // H -> Hora (00-23)
+    // i -> Minuto (00-59)
+    // s -> Segundo (00-59)
+    // l -> Dia da semana por extenso (Thursday)
+    // D -> Dia da semana abreviado (Thu)
+    // F -> Nome completo do mês (November)
+    // M -> Nome abreviado do mês (Nov)
+    // a/A -> am/pm
+    // T -> Sigla do fuso (BRT)
+    // z -> Dia do ano
+
 Timezone sp;
 
 // reconexão
